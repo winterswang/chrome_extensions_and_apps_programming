@@ -3,10 +3,37 @@
 <head>
     <meta charset="utf-8">
     <title>Hello World</title>
+    <style type="text/css">
+	body { 
+		width: 250px; 
+		height: 140px;  
+		margin: 0;
+	}
+	* {
+		background:#fcfcfc;
+	}
+	#link{
+		height: 70%;
+		margin: 50px 0 0px 0px;
+	}
+	#domain_list{
+		height:	100%;
+		width: 100%;
+		margin: 20px 0 10px 0px;
+	}
+    </style>
 </head>
+<!-- text-align:center; -->
 <body>
-    <div id = "link">Hello, World!</div>
-    <div><button id = "save_button">save</button></div>
-    <script type="text/javascript" src = "main.js"></script>
+	<div style="height:100% ;text-align:center;" >
+	    <div id = "link">Hello, World!</div>
+	    <div>
+	    	<table id = "domain_list" style="display:none"></table>
+	    </div>
+	    <div height="30%" id ="buttons">
+	    	<button id = "save_button" >save</button>
+	    </div>
+	    <script type="text/javascript" src = "main.js"></script>
+    </div>
 </body>
 </html>
